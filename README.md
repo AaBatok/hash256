@@ -45,6 +45,10 @@ sh scripts/build-opencl.sh
 
 Run
 ```
+screen -S hash256
+```
+
+```
 npm run start:gpu
 ```
 
