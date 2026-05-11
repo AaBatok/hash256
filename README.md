@@ -40,7 +40,15 @@ clinfo | head
 
 Build miner GPU:
 ```
-sh scripts/build-opencl.sh
+sed -i 's/\r$//' scripts/build-opencl.sh
+```
+
+```
+mkdir -p bin
+```
+
+```
+bash scripts/build-opencl.sh
 ```
 
 Run
